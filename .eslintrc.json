@@ -1,0 +1,11 @@
+{
+  "env": {
+      "mocha": true
+  },
+  "extends": ["airbnb-base", "prettier"],
+  "plugins": ["mocha"],
+  "rules": {
+    "mocha/no-exclusive-tests": "error",
+    "no-restricted-globals": ["off"]
+  }
+}
